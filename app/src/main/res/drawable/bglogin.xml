@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <layer-list>
+
+            <item>
+                <color android:color="#802000"/>
+            </item>
+
+            <item>
+                <bitmap
+                    android:tint="@color/one"
+                    android:src="@drawable/smallpattern"
+                    android:tileMode="repeat"/>
+            </item>
+
+        </layer-list>
+    </item>
+
+
+
+</selector>
